@@ -1,0 +1,24 @@
+{
+  "name": "assignment-webserver",
+  "version": "1.0.0",
+  "description": "Assignment for developing a Webserver",
+  "main": "index.js",
+  "author": "Gustavo Santiago",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^29.5.0",
+    "superagent": "^8.0.9",
+    "supertest": "^6.3.3"
+  }
+}
